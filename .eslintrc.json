@@ -1,0 +1,11 @@
+{
+  "plugins": [],
+  "extends": [
+    "prettier",
+    "plugin:@typescript-eslint/recommended",
+    "eslint:recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "warning"
+  }
+}
